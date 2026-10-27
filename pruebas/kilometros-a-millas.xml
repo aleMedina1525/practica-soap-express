@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="urn:conversiones">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <con:KilometrosAMillas>
+      <con:kilometros>10</con:kilometros>
+    </con:KilometrosAMillas>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,9 @@
+Servidor escuchando en http://localhost:3000
+WSDL Conversiones: http://localhost:3000/soap/conversiones?wsdl
+WSDL Geometria:    http://localhost:3000/soap/geometria?wsdl
+[2026-10-27T23:58:43.391Z] GET /soap/conversiones?wsdl -> 200 (1 ms)
+[2026-10-27T23:58:43.397Z] GET /soap/geometria?wsdl -> 200 (0 ms)
+[2026-10-27T23:58:43.404Z] POST /soap/conversiones -> 200 (2 ms)
+[2026-10-27T23:58:43.410Z] POST /soap/conversiones -> 200 (1 ms)
+[2026-10-27T23:58:43.416Z] POST /soap/geometria -> 200 (1 ms)
+[2026-10-27T23:58:43.421Z] POST /soap/geometria -> 200 (0 ms)

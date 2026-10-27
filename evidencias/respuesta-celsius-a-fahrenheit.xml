@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="urn:conversiones"><soap:Body><CelsiusAFahrenheitResponse xmlns="urn:conversiones"><fahrenheit>77</fahrenheit></CelsiusAFahrenheitResponse></soap:Body></soap:Envelope>
