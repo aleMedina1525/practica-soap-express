@@ -131,6 +131,16 @@ Ejemplo de respuesta:
 
 El registro completo de las pruebas está en `evidencias/registro-middleware.txt`.
 
+## body-parser
+
+En `src/app.js` se usa `bodyParser.raw()` para peticiones `text/xml` y `application/soap+xml`, como recomienda la documentación de [node-soap](https://github.com/vpulim/node-soap). Lee el cuerpo de la petición tal cual, sin convertirlo, y se lo entrega a node-soap para que procese el sobre XML.
+
+Orden de los middleware en `app.js`:
+
+1. `logger`: registra la petición.
+2. `bodyParser.raw()`: lee el XML recibido.
+3. `soapRoutes`: Router con los servicios SOAP.
+
 ## Evidencias
 
 ### Contratos WSDL
