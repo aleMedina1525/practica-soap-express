@@ -130,3 +130,37 @@ Ejemplo de respuesta:
 ```
 
 El registro completo de las pruebas está en `evidencias/registro-middleware.txt`.
+
+## Evidencias
+
+### Contratos WSDL
+
+**ConversionesService**
+
+![WSDL Conversiones](evidencias/captura-wsdl-conversiones.png)
+
+**GeometriaService**
+
+![WSDL Geometria](evidencias/captura-wsdl-geometria.png)
+
+### Respuestas SOAP
+
+**CelsiusAFahrenheit** (25 → 77)
+
+![CelsiusAFahrenheit](evidencias/captura-celsius-a-fahrenheit.png)
+
+**KilometrosAMillas** (10 → 6.21371)
+
+![KilometrosAMillas](evidencias/captura-kilometros-a-millas.png)
+
+**AreaRectangulo** (8, 5 → 40)
+
+![AreaRectangulo](evidencias/captura-area-rectangulo.png)
+
+**PerimetroRectangulo** (8, 5 → 26)
+
+![PerimetroRectangulo](evidencias/captura-perimetro-rectangulo.png)
+
+### Registro del middleware
+
+![Log del middleware](evidencias/captura-log-middleware.png)
